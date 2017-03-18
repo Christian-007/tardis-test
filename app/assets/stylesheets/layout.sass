@@ -1,0 +1,80 @@
+@import 'variables'
+
+html,body
+  height: 100%
+  font-family: $font-family
+
+#wrap
+  position: relative
+  min-height: 100%
+  height: auto !important
+  margin: 0 auto -1*$footer-height
+  padding: 0 0 $footer-height
+
+#main-container
+  padding-top: 50px
+  width: 100%
+
+  .row
+    // .col-md-12, .col-md-1
+    .col-md-9
+      background: #fafafa
+
+      .month
+        border: $border-generic
+        border-bottom: none
+
+        .col-md-12
+          padding: 8px
+
+        .col-md-1
+          border-right: $border-generic
+          border-bottom: $border-generic
+          padding: 8px
+
+          &:last-of-type
+            border-right: none
+
+      .contain
+        position: relative
+        top: 0
+        left: 0
+      
+        .progress
+          position: absolute
+          top: 6px
+          left: 0
+          width: 100%
+          height: 70%
+          z-index: 10
+          box-shadow: none
+          background: none
+
+          .progress-bar
+            border-radius: 4px
+            padding: 5px
+
+        .row.area
+          border: $border-generic
+          border-top: none
+          border-bottom: none
+
+          .col-md-1
+            border-right: $border-generic
+            padding: 20px 15px
+              
+            &:last-of-type
+              border-right: none
+
+        &:last-of-type
+          .col-md-1
+            border-bottom: $border-generic
+          
+
+
+
+#footer
+  height: $footer-height
+  padding-top: 20px
+  border-top: 1px solid $gray-lighter
+  font-size: 0.9*$font-size-base
