@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TaRDIS
 ---
 
@@ -18,3 +19,7 @@ None.
 
 ### Customer Contact
 Some Customer <some.customer@epigenesys.co.uk>
+=======
+# tardis-test
+Experiment on TaRDIS
+>>>>>>> e17af477c59764a4ca2f4293f7d28fba95c9cb66
